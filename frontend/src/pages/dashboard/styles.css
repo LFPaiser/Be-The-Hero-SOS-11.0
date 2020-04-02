@@ -1,0 +1,96 @@
+.dashboard-container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 30px;
+  margin: 28px auto;
+}
+
+.dashboard-container header {
+  display: flex;
+  align-items: center;
+}
+
+.dashboard-container header span {
+  font-size: 20px;
+  margin-left: 26px;
+}
+
+.dashboard-container header img {
+  height: 70px;
+}
+
+.dashboard-container header .button {
+  width: 260px;
+  margin-left: auto;
+  margin-top: 0;
+}
+
+.dashboard-container header button {
+  width: 60px;
+  height: 60px;
+  color: #db2745;
+  border-radius: 3px;
+  border: 1px solid #d8d8e2;
+  background: transparent;
+  margin-left: 8px;
+  transition: border-color 0.2s;
+}
+
+.dashboard-container header button:hover {
+  border-color: #aaa;
+}
+
+.dashboard-container h1 {
+  color: #41414d;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.dashboard-container ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 18px;
+  list-style: none;
+}
+
+.dashboard-container ul li {
+  background: #f4f4f6;
+  padding: 18px;
+  border-radius: 3px;
+  position: relative;
+}
+
+.dashboard-container ul li button {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  opacity: 0.7;
+  background: transparent;
+  border: 0;
+  transition: opacity 0.2s;
+}
+
+.dashboard-container ul li button:hover {
+  opacity: 1;
+}
+
+.dashboard-container ul li strong {
+  display: block;
+  margin-bottom: 10px;
+  color: #41414d;
+}
+
+.dashboard-container ul li p {
+  color: #636375;
+  line-height: 21px;
+  font-size: 16px;
+}
+
+.dashboard-container ul li p + strong {
+  margin-top: 32px;
+}
+
+.breaking {
+  width: 500px;
+  word-wrap: break-word;
+}

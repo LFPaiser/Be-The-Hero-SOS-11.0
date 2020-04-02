@@ -1,0 +1,49 @@
+.nova-container {
+  width: 100%;
+  max-width: 1720px;
+  height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nova-container .content {
+  width: 100%;
+  padding: 96px;
+  background: #e5e9ee;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nova-container .content section {
+  width: 100%;
+  max-width: 400px;
+}
+
+.nova-container .content section h1 {
+  color: #444;
+  font-size: 32px;
+  margin: 64px 0 28px;  
+}
+
+.nova-container .content section p {
+  color: #696975;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.nova-container .content form {
+  width: 100%;
+  max-width: 700px;
+}
+
+.nova-container .content form input, 
+.nova-container .content form textarea {
+  margin-top: 3px;
+}
